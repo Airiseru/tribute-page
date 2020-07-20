@@ -1,0 +1,98 @@
+html {
+    background-color: black;
+}
+
+#main {
+    display: grid;
+    background-color: grey;
+    color: black;
+    margin: 15px 10px;
+}
+
+h3 {
+    text-align: center;
+    background-color: darkgrey;
+    font-size: 30px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+img {
+    max-width: 90%;
+    margin: .5em 1em;
+}
+
+figure {
+    background-color: black;
+    color: white;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    width: 40%;
+}
+
+figcaption {
+    text-align: center;
+    margin-bottom: 2em;
+    padding: .25em;
+    font-size: 17px;
+}
+
+figure > img {
+    margin: 2em auto;
+}
+
+#title {
+    text-align: center;
+    font-size: 50px;
+    padding: 0;
+    margin: .5em;
+}
+
+#tribute-info {
+    display: grid;
+    width: 75%;
+    margin: 10px auto;
+    text-align: justify;
+    line-height: 1.5em;
+    font-size: 20px;
+}
+
+#tribute-info li {
+    text-align: left;
+    margin-right: 1em;
+}
+
+blockquote {
+    font-style: italic;
+    border: none;
+    text-align: center;
+}
+
+hr {
+    border: none;
+    border-top: 1px dotted white;
+    border-width: 10px;
+    width: 25%;
+}
+
+#bottom {
+    text-align: center;
+    background-color: darkgrey;
+    font-size: 20px;
+    padding: 1em;
+    margin: .5em;
+    border: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 1px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+}
